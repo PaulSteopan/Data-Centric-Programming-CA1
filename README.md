@@ -1,31 +1,33 @@
-Bus Travel Times to College
+## Bus Travel Times
 
-Project Overview
+## Project Overview
 
-This project involves collecting and analysing my own bus travel times when travelling to and from college. I recorded information about bus arrival times, scheduled arrival times, bus routes, bus stops and actual journey durations.
+This project involves collecting and analysing my own bus journey times on routes 39 and 39A. I record information about scheduled bus arrival times, actual arrival times, bus routes, journey locations and travel durations.
 
 The aim is to use Python and pandas to analyse the data and identify patterns in my daily bus journeys.
 
-Dataset
+## Dataset
 
 Each row represents one bus journey. The dataset includes:
 
 * Date
-* Journey direction (to college / from college)
+* Day of the week
 * Bus route
-* Bus stop
 * Scheduled arrival time
 * Actual arrival time
-* Actual travel time
+* Journey duration in minutes
+* Departure location
+* Arrival location
 
-Research Questions
+## Research Questions
 
-1. On average, how early or late does the bus arrive compared with its scheduled arrival time?
-2. Which bus route or bus stop experiences the biggest delays?
-3. Are buses more delayed when travelling to college or travelling home?
-4. What is the average travel time for each direction?
-5. Which days have the longest bus journey times?
+1. On average, how early or late do buses arrive compared with their scheduled arrival times?
+2. Which direction has the longest average journey duration?
+3. Do journey times change depending on the day of the week?
+4. Are bus journeys longer at certain times of the day?
 
-Data Collection
+## Data Collection
 
-I manually recorded information about my own bus journeys. The data was collected as the journeys took place and was not downloaded from an external source.
+I manually record information about my own bus journeys as they take place. I record the scheduled arrival time from the timetable and compare it with the actual time the bus arrives. I also record the duration of each journey and the locations I travel between.
+
+The data is collected by me and is not downloaded from an external source.
