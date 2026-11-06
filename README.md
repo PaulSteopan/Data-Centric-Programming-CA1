@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project involves collecting and analysing my own bus journey times on routes 39 and 39A. I record information about scheduled bus arrival times, actual arrival times, bus routes, journey locations and travel durations.
+This project involves collecting and analysing my own bus journey times on routes 39 and 39A and occasionally the 70. I record information about scheduled bus arrival times, actual arrival times, bus routes, journey locations and travel durations.
 
 The aim is to use Python and pandas to analyse the data and identify patterns in my daily bus journeys.
 
@@ -28,6 +28,6 @@ Each row represents one bus journey. The dataset includes:
 
 ## Data Collection
 
-I manually record information about my own bus journeys as they take place. I record the scheduled arrival time from the timetable and compare it with the actual time the bus arrives. I also record the duration of each journey and the locations I travel between.
+I manually record information about my own bus journeys as they take place. I record the scheduled arrival time from the the TFI bus app and compare it with the actual time the bus arrives. I also record the duration of each journey using the stopwatch app and the locations I travel between.
 
 The data is collected by me and is not downloaded from an external source.
